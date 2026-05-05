@@ -1,0 +1,4 @@
+question_id,question,reference_answer
+q1,"What is the capital of France?","Paris"
+q2,"What does HVAC stand for?","Heating, ventilation, and air conditioning"
+q3,"In building energy modeling, what does IDF stand for?","Input Data File"
