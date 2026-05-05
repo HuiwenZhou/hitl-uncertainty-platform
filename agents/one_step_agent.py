@@ -17,7 +17,7 @@ def ask_llm(question, model="gpt-4o-mini", temperature=0.0, logprobs=True):
 
     if logprobs:
         kwargs["logprobs"] = True
-        kwargs["top_logprobs"] = 2   # ✅只在这里加
+        kwargs["top_logprobs"] = 2
 
     response = client.chat.completions.create(**kwargs)
 
